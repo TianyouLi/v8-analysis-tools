@@ -2,6 +2,7 @@
 
 if [[ $# == 0 ]]; then
 		echo "Please provide input file name!"
+		exit 1
 fi
 
 CONTENT_BUFFER=""
